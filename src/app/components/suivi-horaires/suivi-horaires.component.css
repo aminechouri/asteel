@@ -1,0 +1,32 @@
+.content-wrapper{
+    background-image: url(/assets/images/449799627_1173721067298507_7052329712667835686_n\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 350px 50px;
+    text-align: center;
+}
+.form{
+    width: 720px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.521);
+    border: 2px solid #ccc;
+    color: black;
+}
+.header{
+    border-bottom: 2px solid #ccc;
+}
+
+.btns a {
+    margin: 0 7px;
+    background-color: rgb(69, 109, 218);
+    color: black;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+label{
+    font-weight: 600;
+    text-align: left;
+}

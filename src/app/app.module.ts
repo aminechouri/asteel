@@ -8,6 +8,7 @@ import { HeaderComponent } from './widgets/header/header.component';
 import { SuiviRefComponent } from './components/suivi-ref/suivi-ref.component';
 import { DefautsComponent } from './components/defauts/defauts.component';
 import { LoginComponent } from './auth/login/login.component';
+import { SuiviHorairesComponent } from './components/suivi-horaires/suivi-horaires.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './auth/login/login.component';
     HeaderComponent,
     SuiviRefComponent,
     DefautsComponent,
-    LoginComponent
+    LoginComponent,
+    SuiviHorairesComponent
   ],
   imports: [
     BrowserModule,

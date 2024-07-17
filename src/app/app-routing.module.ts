@@ -4,6 +4,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { SuiviRefComponent } from './components/suivi-ref/suivi-ref.component';
 import { DefautsComponent } from './components/defauts/defauts.component';
 import { LoginComponent } from './auth/login/login.component';
+import { SuiviHorairesComponent } from './components/suivi-horaires/suivi-horaires.component';
 
 const routes: Routes = [
 
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path:'defauts',
     component:DefautsComponent
+  },
+  {
+    path:'suivi-horaires',
+    component:SuiviHorairesComponent
   },
   {
     path:'login',
