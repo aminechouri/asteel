@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { HeaderComponent } from './widgets/header/header.component';
+import { SuiviRefComponent } from './components/suivi-ref/suivi-ref.component';
+import { DefautsComponent } from './components/defauts/defauts.component';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    HeaderComponent
+    HeaderComponent,
+    SuiviRefComponent,
+    DefautsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
