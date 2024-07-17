@@ -1,0 +1,21 @@
+.header-wrapper{
+    background-color: rgb(128, 185, 231);
+}
+#equipe{
+    background-color: rgb(231, 160, 160);
+    color: black;
+}
+#lignes{
+    background-color: rgb(70, 125, 243);
+    color: black;
+}
+.current-user{
+   display: flex;
+   align-items: center;
+   
+}
+.current-user span{
+    border-bottom: 1px solid red;
+    line-height: 150%;
+    font-size: 18px;
+}

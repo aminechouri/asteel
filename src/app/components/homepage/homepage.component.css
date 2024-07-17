@@ -1,0 +1,18 @@
+.content-wrapper{
+    background-image: url(/assets/images/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 400px 50px;
+}
+.menu{
+    height: 100px;
+    background-color: rgba(226, 226, 226, 0.61);
+   padding: 20px;
+}
+.menu h2{
+    color:black;
+    font-size: 18px;
+    text-wrap: nowrap;
+    text-align: center;
+}
